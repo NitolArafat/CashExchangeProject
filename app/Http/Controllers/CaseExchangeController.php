@@ -7,6 +7,6 @@ use Illuminate\Http\Request;
 class CaseExchangeController extends Controller
 {
    public function index(){
-       return '<h1>This is home page</h1>';
+    return view('front-end.home');
    }
 }
